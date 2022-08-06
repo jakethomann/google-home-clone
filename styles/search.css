@@ -1,0 +1,144 @@
+.search-container {
+    padding: 20px;
+    max-height: 160px;
+}
+
+.search {
+    display: flex;
+    flex: 1;
+}
+
+.search-bar {
+    border: none;
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+    font-size: 16px;
+
+    padding:0;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    color: white;
+
+    height: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.search-bar:focus {
+    outline: 0;
+}
+
+.search-border {
+    display: flex;
+    height: 44px;
+    border-radius: 24px;
+    flex: 1;
+    border: 1px solid rgb(95, 99, 104);
+}
+
+.search-border:hover {
+    background-color: rgb(48, 49, 52);
+    border: 1px solid rgb(48, 49, 52);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.search-center {
+    margin: 0 auto;
+    max-width: 584px;
+    position: relative;
+    width: auto;
+    padding-top: 6px;
+}
+
+.search-contents {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+
+.search-icon-container {
+    padding-top: 7px;
+    padding-right: 13px;
+}
+
+.voice-icon-container {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+}
+
+
+
+.button-block {
+    display: block;
+    padding-top: 18px;
+    height: 70px;
+    text-align: center;
+}
+
+.google-button {
+    background-color: rgb(48, 49, 52);
+    color: rgb(232, 234, 237);
+
+    border: 1px solid #303134;
+    border-radius: 4px;
+
+  
+    font-size: 14px;
+    font-family: Arial;
+    align-content: center;
+
+
+    height: 36px;
+    width: 127.398px;
+
+    margin-top: 11px;
+    margin-bottom: 11px;
+    margin-left: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.lucky-button {
+    background-color: rgb(48, 49, 52);
+    color: rgb(232, 234, 237); 
+
+    border: 1px solid #303134;
+    border-radius: 4px;
+
+    font-size: 14px;
+    font-family: Arial;
+    align-content: center;
+
+
+    height: 36px;
+
+    margin-top: 11px;
+    margin-bottom: 11px;
+    margin-left: 4px;
+    margin-right: 4px;
+
+    padding: 0 16px;
+
+    cursor: pointer;
+}
+
+.lucky-button:hover,
+.google-button:hover {
+    outline: solid;
+    outline-width: 1px;
+    outline-color: rgb(111, 111, 111);
+}
+
+.subhead-container {
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}

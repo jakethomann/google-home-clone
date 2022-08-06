@@ -1,0 +1,16 @@
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+
+}
+
+.logo {
+    max-height: 92px;
+    object-position: center bottom;
+}

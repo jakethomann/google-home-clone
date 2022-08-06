@@ -1,0 +1,70 @@
+
+footer {
+    background-color: rgb(23, 23, 23);
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    padding: 0 20px;
+}
+
+.top-footer-link {
+    display: flex;
+    flex-wrap: wrap;
+    
+    order: 2;
+}
+
+.links-left {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+}
+
+.links-right {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+}
+
+.footer-link {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+
+    color: rgb(153, 157, 162);
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.leaf-icon {
+    height: 14px;
+    margin-right: 6px;
+}
+
+.top-footer-span {
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 1200px) {
+    .top-footer-link {
+        order: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-container {
+        justify-content: space-evenly;
+    }
+
+
+}

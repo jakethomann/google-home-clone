@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(32, 33, 36);
+    color: white;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
